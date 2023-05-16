@@ -1,0 +1,59 @@
+.header,
+.mode-logout,
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-sun-o,
+.fa-moon-o {
+  cursor: pointer;
+
+  font-size: 40px;
+}
+
+.fa-moon-o {
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.logo {
+  color: #d62d30;
+}
+
+.mode-logout button {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.header .mode-logout {
+  gap: 12px;
+}
+.header {
+  height: 15vh;
+  padding: 30px;
+  color: white;
+}
+
+@media only screen and (max-width: 450px){
+.logo h1{
+  font-size:26px;
+}
+
+
+.mode-logout button {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.fa-sun-o,
+.fa-moon-o {
+  cursor: pointer;
+
+  font-size: 30px;
+}
+}

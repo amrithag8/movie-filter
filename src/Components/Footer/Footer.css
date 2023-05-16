@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: #757575;
+}
+
+.box-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.box-icons img {
+  height: 24px;
+  width: 24px;
+}
+.box1 p {
+  margin-bottom: 15px;
+
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+}
+
+select {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #757575;
+}
+.question {
+  margin-bottom: 29px;
+}
+.dropdown {
+  margin-top: 37px;
+  border: 1px solid #757575;
+
+  width: 121px;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 450px){
+  .box-icons img {
+    height: 18px;
+    width: 18px;
+  }
+}

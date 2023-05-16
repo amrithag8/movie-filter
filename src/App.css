@@ -1,0 +1,47 @@
+:root {
+  --background-primary: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
+  );
+  --bg-color: white;
+  --text-color: white;
+}
+
+[data-theme="light"] {
+  --background-primary: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.6) 0,
+    rgba(255, 255, 255, 1) 100%
+  );
+  --bg-color: gray;
+  --text-color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.App-container {
+  min-height: 100vh;
+  width: 100%;
+
+  background-color: #000000;
+}
+
+.header-home-container {
+  min-height: 90vh;
+
+  width: 100%;
+  background-image: var(--background-primary),
+    url("https://s3-prod.adage.com/s3fs-public/AdAge%201200x800%20adjusted-B.jpg");
+}
+
+.footer-container {
+  padding: 30px;
+  min-height: 20vh;
+  width: 100%;
+}

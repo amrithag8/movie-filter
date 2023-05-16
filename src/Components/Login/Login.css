@@ -1,0 +1,68 @@
+.login-page {
+  height: 450px;
+  max-width: 350px;
+  width: 100%;
+  background: #000000;
+  border-radius: 4px;
+
+  color: white;
+  padding: 80px 50px;
+  margin: auto;
+}
+.form-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-top: 30px;
+}
+
+.form-page input {
+  max-width: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #333333;
+  border-radius: 4px;
+  padding: 10px;
+}
+.form-page button {
+  background: #e50914;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.55);
+  border-radius: 4px;
+
+  max-width: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.form-page p {
+  font-size: 13px;
+  line-height: 15px;
+  
+
+  color: #b3b3b3;
+  cursor: pointer;
+}
+
+.form-page a{
+  text-decoration: none;
+}
+.form-page p:hover {
+  text-decoration-line: underline;
+  
+}
+
+.forgot-pass {
+  text-align: end;
+}
+
+.sign-up {
+  margin-top: 70px;
+  text-align: center;
+}
