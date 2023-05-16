@@ -18,3 +18,23 @@ word-spacing: 5px;
 font-weight: 600;
 letter-spacing: 2px;
 }
+
+@media only screen and (max-width: 600px){
+    .moviedetails{
+        color: var(--text-color);
+        text-align: center;
+        width: 300px;
+        padding: 12px;
+        margin:  auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+    }
+
+    .moviedetails img{
+        width: 300px;
+    }
+}
