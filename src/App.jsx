@@ -28,6 +28,7 @@ function App() {
             <Route path="/login" element={<Loginpage />} />
             <Route path="/signup" element={<Signuppage/>}/>
             <Route path="/forgotpass" element={<Emailcheckpage/>}/>
+            <Route path="/resetpass" element={<Forgotpasspage/>}/>
           
           </Route>
 

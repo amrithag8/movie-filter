@@ -9,10 +9,15 @@ const Header = () => {
   const navigate = useNavigate();
   let modeValue = localStorage.getItem("theme");
 
+  console.log("mode is", mode);
+
   useEffect(() => {
-    if (modeValue !== "") {
+    if (modeValue !== null) {
       document.documentElement.setAttribute("data-theme", modeValue);
       setMode(modeValue);
+    }
+    else{
+      setMode("dark");
     }
   }, []);
 
